@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macbook Pro</title>
+
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- bootstrap file css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- header section -->
+
+    <header>
+
+        <h1 class="text-center pt-4 text-danger">Configure Your MacBook Pro.</h1>
+    </header>
+
+    <!-- main section -->
+
+    <main>
+
+        <!-- top section left -->
+        <section class="d-flex m-5">
+            <!-- header img -->
+            <div class="w-50 p-5">
+                <img src="images/mac.png" class="img-thumbnail " alt="">
+            </div>
+
+            <!-- top section right -->
+            <section class="w-50 p-5">
+                <!-- header content -->
+                <div>
+                    <h1>
+                        Choose your new MacBook Pro with <strong>M1 Chip</strong>
+                    </h1>
+                    <p class="pt-3">
+                        The Apple M1 chip gives the 13‑inch MacBook Pro speed and power beyond belief. With up to 2.8x
+                        CPU performance. Up to 5x the graphics speed. Our most advanced Neural Engine for up to 11x
+                        faster machine learning. And up to 20 hours of battery life — the longest of any Mac ever. It’s
+                        our most popular pro notebook, taken to a whole new level.
+                    </p>
+                </div>
+
+                <!-- memory section -->
+                <section class="pt-5">
+                    <div>
+                        <h3>Memory</h3>
+                        <div>
+                            <button type="button" id="8gbMemory" class="btn btn-light border border-secondary">8gb unified memory</button>
+                            <button type="button" id="16gbMemory" class="btn btn-light border border-secondary">16gb unified memory</button>
+                        </div>
+                    </div>
+
+                </section>
+                <!-- storage section -->
+                <section class="pt-5">
+                    <div>
+                        <h3>Storage</h3>
+                        <div>
+                            <button type="button" id = "256gbStorage" class="btn btn-light border border-secondary">256gb ssd storage</button>
+                            <button type="button" id = "512gbStorage" class="btn btn-light border border-secondary">512gb ssd storage</button>
+                            <button type="button" id = "1tbStorage" class="btn btn-light border border-secondary">1TB ssd storage</button>
+                        </div>
+                    </div>
+
+                </section>
+                <!-- delivery section -->
+                <section class="pt-5">
+                    <div>
+                        <h3>Delivery Option</h3>
+                        <div>
+                            <button type="button" id="freeDelivery" class="btn btn-light border border-secondary">5 days, free delivery </button>
+                            <button type="button" id="PaidDelivery" class="btn btn-light border border-secondary">1 day, express delivery $20</button>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- pricing section -->
+                <section>
+                    <div class="cart-item">
+                        <h3 class="pt-5">Pricing</h3>
+                        <div class="row">
+      
+                           <div class="col-md-8">
+                              <h5>B Price: </h5>
+                              <h5>Extra Memory Cost:</h5>
+                              <h5>Extra Storage Cost:</h5>
+                              <h5>Delivery Charge:</h5>
+                              <hr >
+                              <h5>Total Price:</h5>
+                           </div>
+    
+                           <div class="col-md-4 status">
+                              <h5 >$ <span id="bestPrice">1299</span> </h5>
+                              <h5>$ <span id="extraMemoryCost" >0</span> </h5>
+                              <h5 > $ <span id="extraStorageCost">0</span> </h5>
+                              <h5 > $ <span id="deliveryCharge">0</span> </h5>
+                              <hr>
+                              <h5 > $ <span id="totalPrice">1299</span> </h5>
+                           </div>
+                        </div>
+                     </div>
+                     
+                     <!-- promo code section -->
+                     <section class="pt-5">
+                        
+                    <h5 >Add Prome Code</h5>
+                    <div class="input-group w-75">
+                        
+                        <input type="text" class="form-control" id="promoCode" placeholder="Promocode">
+                        <button type="button" class="btn btn-danger " id="applyBtn">Apply</button>
+
+                      </div>
+                     </section>
+                </section>
+
+
+            </section>
+        </section>
+
+        <hr class="hrTag">
+
+        <footer class="mb-5">
+
+            <h2 class="text-center pt-3 "> Total : $ <span id="total">1299</span> </h2>
+
+        </footer>
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+    <!-- script file -->
+    <script src="script.js"></script>
+
+    <!-- bootstrap file js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
